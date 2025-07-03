@@ -5,10 +5,7 @@
 #include "atomic.hpp"
 #include "Digitalout.hpp"
 #include "Digitalinput.hpp"
-#include "analoginput.hpp"
-#include "stm32h7xx_hal_rcc.h"
-#include "stm32h7xx_hal_dma.h"
-#include "stm32h7xx_hal_uart.h"
+
 
 
 
@@ -35,13 +32,6 @@ struct top_coupled : public Coupled {
         static GPIO_InitTypeDef input = {
             .Pin = GPIO_PIN_13,
             .Mode = GPIO_MODE_INPUT,
-            .Pull = GPIO_NOPULL,
-            .Speed = GPIO_SPEED_FREQ_LOW,
-            .Alternate = 0
-        };
-        static GPIO_InitTypeDef analogue = {
-            .Pin = GPIO_PIN_0,
-            .Mode = GPIO_MODE_ANALOG,
             .Pull = GPIO_NOPULL,
             .Speed = GPIO_SPEED_FREQ_LOW,
             .Alternate = 0

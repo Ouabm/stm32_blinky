@@ -1,5 +1,5 @@
-/home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/stm32_rt/CMakeFiles/edit_cache.dir
-/home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/stm32_rt/CMakeFiles/rebuild_cache.dir
-/home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/stm32_rt/main/CMakeFiles/stm32_rt.dir
-/home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/stm32_rt/main/CMakeFiles/edit_cache.dir
-/home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/stm32_rt/main/CMakeFiles/rebuild_cache.dir
+/home/oualid-boudemagh/Bureau/stm32_blinky/CMakeFiles/edit_cache.dir
+/home/oualid-boudemagh/Bureau/stm32_blinky/CMakeFiles/rebuild_cache.dir
+/home/oualid-boudemagh/Bureau/stm32_blinky/main/CMakeFiles/stm32_rt.dir
+/home/oualid-boudemagh/Bureau/stm32_blinky/main/CMakeFiles/edit_cache.dir
+/home/oualid-boudemagh/Bureau/stm32_blinky/main/CMakeFiles/rebuild_cache.dir

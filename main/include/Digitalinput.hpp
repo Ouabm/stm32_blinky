@@ -27,9 +27,6 @@ namespace cadmium {
         bool last;
         double sigma;
 
-        /**
-        * DigitalInputState constructor.
-        */
         explicit DigitalInputState(): output(true), last(false), sigma(0.1){}
     };
 
@@ -91,7 +88,6 @@ namespace cadmium {
         // output function
         void output(const DigitalInputState& state) const override {
             if(state.last != state.output) {
-                bool output=state.output;
                 out->addMessage(state.output);
             }
         }
